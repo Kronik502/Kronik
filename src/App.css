@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #121212; /* Dark background */
+  color: #fff; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: 'Inter', sans-serif;
+}
+
+form {
+  background-color: rgba(255, 255, 255, 0.05); /* Slightly transparent background */
+  padding: 30px;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 90%;
+  max-width: 400px; /* Restrict max width */
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.3); /* Slightly enhanced shadow */
+}
+
+.App-logo {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+  object-fit: cover;
+}
+
+.text-container {
+  margin-bottom: 20px; /* Adjust space below */
+  text-align: center;
+}
+
+.text-container .name {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.text-container .address {
+  font-size: 14px;
+  color: hsl(75, 94%, 57%);
+  margin-bottom: 5px;
+}
+
+.text-container .role {
+  font-size: 14px;
+  color: #ccc;
+  margin-top: 5px;
+  font-style: italic;
+}
+
+.button-list {
+  list-style-type: none;
+  padding: 0;
+  width: 100%;
+}
+
+.button-list li {
+  margin: 10px 0;
+  display: flex;
+  justify-content: center;
+}
+
+.color-button {
+  padding: 12px;
+  font-size: 14px;
+  cursor: pointer;
+  width: 100%; /* Full width */
+  max-width: 300px; /* Limit button width */
+  border: none;
+  border-radius: 5px;
+  transition: background-color 0.3s, transform 0.2s;
+  background-color: hsl(0, 0%, 20%);
+  color: #fff;
+  text-decoration: none; /* Remove underline from links */
+  text-align: center;
+}
+
+.color-button:hover {
+  background-color: hsl(75, 94%, 57%); /* Green on hover */
+  color: #000; /* Black text for contrast */
+  transform: translateY(-2px); /* Slight lift effect */
+}

@@ -1,20 +1,8 @@
 import React from 'react';
-=======
-import React, { useState } from 'react';
->>>>>>> 54ab5c113659963ea9e7f8e57d7d3a2f34016bbe
 import logo from './logo.jpg';
 import './App.css';
 
 function App() {
-<<<<<<< HEAD
-=======
-    const [isGreen, setIsGreen] = useState(false);
-
-    const handleClick = () => {
-        setIsGreen(!isGreen); // Toggle state to switch button styles
-    };
-
->>>>>>> 54ab5c113659963ea9e7f8e57d7d3a2f34016bbe
     return (
         <div className="App">
             <form className="form-container">
@@ -23,7 +11,6 @@ function App() {
                 </div>
                 <div className="text-container">
                     <p className="name">Kgabo Kwenaite</p>
-<<<<<<< HEAD
                     <p className="address">TEMBISA - Winnie Mandela - 1632</p>
                     <p className="role">"Software developer, Writer, Gamer and Music Producer"</p>
                 </div>
@@ -78,22 +65,6 @@ function App() {
                             LinkedIn
                         </a>
                     </li>
-=======
-                    <p className="address">Seshego - Zone 1</p>
-                    <p className="role">"Software developer and Music Producer"</p>
-                </div>
-                <ul className="button-list">
-                    <li>
-                        <button
-                            className={`color-button ${isGreen ? 'green' : ''}`}
-                            onClick={handleClick}
-                            type="button"
-                        >
-                            Github
-                        </button>
-                    </li>
-                    {/* Include other buttons similarly */}
->>>>>>> 54ab5c113659963ea9e7f8e57d7d3a2f34016bbe
                 </ul>
             </form>
         </div>
